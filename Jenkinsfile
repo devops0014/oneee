@@ -12,6 +12,11 @@ pipeline {
                 echo 'Hello Parallel World'
             }
         }
+        stage('Hello12') {
+            steps {
+                echo 'Hello Paralle123l World'
+            }
+        }
     }
 }
 
